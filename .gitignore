@@ -1,0 +1,16 @@
+# Credentials
+.env
+.env.*
+!.env.template
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Run outputs
+out/
+outputs/
+*.log

@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+title: Structured Extraction of Echocardiography Reports
+message: >-
+  If you use this software, please cite both the software and the
+  accompanying paper.
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/ultraub/echo-extraction"
+
+authors:
+  - family-names: Barrett
+    given-names: Robert B.
+    affiliation: >-
+      Division of Biomedical Informatics and Data Science, Department of
+      Medicine, Johns Hopkins School of Medicine
+  - family-names: Duvall
+    given-names: Chloe
+    affiliation: >-
+      Division of Cardiology, Department of Medicine, Johns Hopkins School
+      of Medicine
+  - family-names: Hays
+    given-names: Allison G.
+    affiliation: >-
+      Division of Cardiology, Department of Medicine, Johns Hopkins School
+      of Medicine
+  - family-names: Minhas
+    given-names: Anum S.
+    affiliation: >-
+      Division of Cardiology, Department of Medicine, Johns Hopkins School
+      of Medicine
+
+abstract: >-
+  A fine-tuning-free pipeline that extracts 48 structured clinical fields
+  from free-text echocardiography reports using a general-purpose large
+  language model with JSON-schema-constrained decoding. Runs against a
+  locally self-hosted open-weights model or any OpenAI-compatible endpoint.
+
+keywords:
+  - echocardiography
+  - clinical natural language processing
+  - information extraction
+  - large language models
+  - structured data
+
+# ---------------------------------------------------------------------------
+# Fill in once the paper is published, then delete this comment.
+# Add "doi:" and "url:" to the software entry above if you mint a Zenodo DOI.
+# ---------------------------------------------------------------------------
+preferred-citation:
+  type: article            # change to "unpublished" or "generic" for a preprint
+  title: >-
+    Structured Extraction of Echocardiography Reports: A Framework for
+    Practical Information Extraction with Large Language Models
+  authors:
+    - family-names: Barrett
+      given-names: Robert B.
+    - family-names: Duvall
+      given-names: Chloe
+    - family-names: Hays
+      given-names: Allison G.
+    - family-names: Minhas
+      given-names: Anum S.
+  year: "TODO: publication year"
+  journal: "TODO: journal name"
+  doi: "TODO: DOI"

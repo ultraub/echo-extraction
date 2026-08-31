@@ -1,0 +1,5 @@
+# Runner dependencies. The model server is separate — any OpenAI-compatible
+# endpoint with schema-constrained decoding (see README). For the local
+# server used in the paper: pip install "sglang[all]==0.5.10.post1"
+openai>=1.40
+python-dotenv
